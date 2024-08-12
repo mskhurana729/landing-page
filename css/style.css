@@ -86,15 +86,44 @@ button {
     height: 200px;
     text-align: center;
     background-color: grey;
+    border: 2px solid #3882f6;
 }
 
 .section1 {
-    height: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+
+.section1-container {
+    display: flex;
+    gap: 40px;
+}
+
+.section1-sub-container {
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    justify-content: center;
+}
+
+.section1-sub-container img {
+    height: 150px;
+    width: 150px;
+    border: 2px solid #3882f6;
+    border-radius: 7px;
+}
+
+.section1-sub-container p {
+    width: 150px;
 }
 
 .section2 {
     background: #e5e7eb;
-    height: 300px;
+    height: 400px;
 
 }
 
