@@ -64,11 +64,11 @@ button {
     color: white;
     height: 35px;
     border: 1px solid white;
-    width: 100px;
+    width: 150px;
     font-size: 20px;
     font-weight: bold;
     /* border: 0px round white; */
-    border-radius: 12px;
+    border-radius: 5px;
 }
 
 .header h1 {
@@ -154,10 +154,27 @@ button {
 
 .section3 {
     height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .section3 .container {
     background-color: #3882f6;
+    color: #e5e7eb;
+    height: 150px;
+    border-radius: 20px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.call-to-action {
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
 }
 
 .footer {
