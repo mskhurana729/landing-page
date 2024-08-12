@@ -37,13 +37,38 @@ body {
 }
 
 .header {
-    height: 300px;
+    height: 400px;
     background: #1f2937;
+
+}
+
+.header .container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.header .container .sub-container {
+    height: 200px;
+    width: 400px;
+
+
+
+
 }
 
 button {
     background-color: #3882f6;
     color: white;
+    height: 35px;
+    border: 1px solid white;
+    width: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    /* border: 0px round white; */
+    border-radius: 12px;
 }
 
 .header h1 {
@@ -58,7 +83,8 @@ button {
 
 .header img {
     width: 400px;
-    height: 400px;
+    height: 200px;
+    text-align: center;
     background-color: grey;
 }
 
