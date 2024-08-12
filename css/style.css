@@ -180,4 +180,8 @@ button {
 .footer {
     height: 100px;
     background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
