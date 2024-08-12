@@ -124,13 +124,32 @@ button {
 .section2 {
     background: #e5e7eb;
     height: 400px;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
+
+.section2-container {
+    height: 100%;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .section2 .inspiring-quote {
     font-size: 36px;
     font-weight: 10;
     color: #1f2937;
+
+}
+
+.writer {
+    font-weight: bold;
+    font-size: 28px;
+    align-self: flex-end;
 }
 
 .section3 {
