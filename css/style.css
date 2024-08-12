@@ -2,4 +2,55 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
+    line-height: 1.2;
+}
+
+.navbar {
+    background: #1f2937;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    color: #f9faf8;
+
+}
+
+.nav a {
+    font-size: 18px;
+    color: #f9faf8;
+}
+
+.header {
+    background: #1f2937;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+}
+
+.header h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.section2 {
+    background: #e5e7eb;
+
+}
+
+.section2 .inspiring-quote {
+    font-size: 36px;
+    font-weight: 10;
+    color: #1f2937;
+}
+
+.section3 .container {
+    background-color: #3882f6;
+}
+
+.footer {
+    background-color: #1f2937;
 }
